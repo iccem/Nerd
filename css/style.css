@@ -1,0 +1,404 @@
+﻿.page{
+    padding: 0;
+    margin:0;
+    min-width: 1440px;
+    min-height: 2476px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1160px;
+    padding: 0;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    background-color: #eeeeee;
+}
+
+/*header*/
+
+.header-top{
+    display: flex;
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.header-logo{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-right: 161px;
+}
+
+.nav-menu{
+    display: flex;
+    padding-top: 4px;
+    list-style: none;
+}
+
+.nav-item{
+    padding: 0 49px 0 0;
+}
+
+.nav-contacts{
+    padding: 0;
+}
+
+.nav-cart{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 0;
+    padding-top: 24px;
+    text-transform: uppercase;
+    position: relative;
+    vertical-align: central;
+}
+
+.nav-cart svg{
+    position: absolute;
+    top: 32px;
+    right: 99px;
+    fill: #a6a6a6;
+}
+
+.header-middle{
+    display: flex;
+}
+
+.header-text{
+    display: block;
+    width: 330px;
+    margin-right: 70px;
+}
+
+.header-title{
+    font-size: 55px;
+    line-height: 55px;
+    padding: 0;
+    padding-top: 67px;
+    margin: 0;
+    display: block;
+    width: 380px;
+}
+
+.header-description{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    padding-top: 25px;
+    margin: 0;
+    display: block;
+    width: 370px;
+    margin-bottom: 40px;
+}
+
+.know-more-link{
+    display: block;
+    background-color: #fb565a;
+    text-align: center;
+    padding: 15px 5px 15px 5px;
+    margin: 0;
+    color: #eeeeee;
+    text-transform: uppercase;
+    width: 230px;
+    border-radius: 3px;
+}
+
+.slider{
+    display: flex;
+    width: 760px;
+    height: 431px;    
+    background-color: #eeeeee;
+}
+
+.slider-1{
+    background-image: url(../img/nerds-index-slide1.png);
+    width: 760px;
+    height: 431px;  
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.advantages{
+    display: flex;
+    margin-bottom: 81px;
+}
+
+.web, .app, .presentation{
+    display: block;
+    width: 300px;
+    margin: 0;
+    margin-right: 100px;
+}
+
+.web-img{
+    background-image: url(../img/illustration-1.jpg);
+    margin-bottom: 10px;
+    width: 300px;
+    height: 146px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 68px;
+}
+
+.app-img{
+    background-image: url(../img/illustration-2.jpg);
+    margin-bottom: 10px;
+    width: 300px;
+    height: 146px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 68px;
+}
+
+.presentation-img{
+    background-image: url(../img/illustration-3.jpg);
+    margin-bottom: 10px;
+    width: 300px;
+    height: 146px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 68px;
+}
+
+.advantages-title{
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.advantages-subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+}
+
+.advantages-btn{
+    display: block;
+    background-color: #fb565a;
+    text-align: center;
+    padding: 17px 5px 17px 5px;
+    margin: 0;
+    color: #eeeeee;
+    text-transform: uppercase;
+    width: 151px;
+    border-radius: 3px;
+}
+
+.web-btn{
+    background-color: #fb565a;
+}
+
+.app-btn{
+    background-color: #00ca74;
+}
+
+.presentation-btn{
+    background-color: #efc84a;
+}
+
+.studio{
+    display: flex;
+    min-height: 528px;
+}
+
+.studio-description{
+    display: block;
+    width: 600px;
+    margin-right: 200px;
+}
+
+.studio-infograph{
+    display: block;
+    width: 360px;
+}
+
+.description-studio-h1{
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    width: 650px;
+    padding-top: 76px;
+    margin: 0;
+}
+
+.description-studio-h2{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 17px;
+    width: 650px;
+    margin-bottom: 16px;
+}
+
+.description-studio-h3{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 22px;
+    text-transform: uppercase;
+}
+
+.orders-list{
+    list-style: none;
+}
+
+.order-list-item{
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+}
+
+.order-list-item:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: -40px;
+    background-color: #fb565a;
+    width: 27px;
+    height: 2px;
+}
+
+.studio-infograph-container{
+    display: block;
+}
+
+.studio-infograph-pic{
+    background-image: url(../img/nerds-illustration.jpg);
+    margin-bottom: 38px;
+    width: 360px;
+    height: 208px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+}
+
+.studio-infograph-title{
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.studio-infograph-data{
+    display: flex;
+    padding-top: 50px;
+}
+
+.studio-infograph {
+    display: block;
+    width: 103px;
+    margin: 0;
+    margin-right: 0;
+}
+
+.data-1{
+    margin-right: 16px;
+}
+
+.data-2{
+    margin-right: 16px;
+}
+
+.data-persent{
+    font-size: 45px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.persent{
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    left: -11px;
+}
+
+.data-text{
+    padding: 0;
+    padding-top: 6px;
+}
+
+.portfolio-logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-item{
+    width: 260px;
+    height: 160px;
+    top: 0;
+    left: 0;
+    margin-top: 4px;
+    margin-bottom: 1px;
+    opacity: .5;
+}
+
+.logo-1{
+    background-image: url(../img/logo-1.png); 
+    position: relative;
+}
+
+.logo-2{
+    background-image: url(../img/logo-2.png);
+    position: relative;
+}
+
+.logo-3{
+    background-image: url(../img/logo-3.png);
+    position: relative;
+}
+
+.logo-4{
+    background-image: url(../img/logo-4.png);
+}
+
+.logo-1::after{
+    position: absolute;
+    content: "";
+    top: 62px;
+    right: -21px;
+    display: block;
+    width: 2px;
+    height: 50px;
+    background-color: #808080;
+}
+
+.logo-2::after{
+    position: absolute;
+    content: "";
+    top: 62px;
+    right: -21px;
+    display: block;
+    width: 2px;
+    height: 50px;
+    background-color: #808080;
+}
+
+.logo-3::after{
+    position: absolute;
+    content: "";
+    top: 62px;
+    right: -21px;
+    display: block;
+    width: 2px;
+    height: 50px;
+    background-color: #808080;
+}
